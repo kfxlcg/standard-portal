@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>建筑标准公开检索门户</title>
+  <link rel="stylesheet" href="assets/style.css">
+  <script src="assets/app.js" defer></script>
+</head>
+<body>
+  <header>
+    <div class="wrap">
+      <h1>建筑标准公开检索门户</h1>
+      <p class="sub">3 万本标准名录 · 29 本治理规范 · 演示检索</p>
+    </div>
+  </header>
+
+  <main class="wrap">
+    <nav class="tabs">
+      <button id="tab-catalog" class="tab active" data-tab="catalog">名录查询</button>
+      <button id="tab-demo" class="tab" data-tab="demo">演示检索</button>
+    </nav>
+
+    <section id="stats" class="stats"></section>
+
+    <section id="panel-catalog" class="panel">
+      <div class="controls">
+        <input id="q" type="search" placeholder="输入标准号 / 名称 / 分类，如 GB55016 或 防火">
+        <select id="f-issue"><option value="">全部状态</option></select>
+        <select id="f-doc"><option value="">全部类型</option></select>
+        <select id="f-cat"><option value="">全部分类</option></select>
+        <button id="btn-clear" class="ghost">清除筛选</button>
+      </div>
+      <p id="result-info" class="muted"></p>
+      <ul id="results" class="results"></ul>
+      <div class="center">
+        <button id="load-more" class="ghost" hidden>加载更多</button>
+      </div>
+    </section>
+
+    <section id="panel-demo" class="panel" hidden>
+      <div class="controls">
+        <input id="dq" type="search" placeholder="在演示数据中检索条文，如 排烟 / 防烟分区">
+      </div>
+      <p class="muted">演示子集仅包含条文号、自写摘要与官方源链接，不包含条文全文。</p>
+      <ul id="demo-results" class="results"></ul>
+    </section>
+  </main>
+
+  <footer class="wrap">
+    <p>数据来源：国家标准全文公开系统（openstd.samr.gov.cn）等官方公开题录。本站不发布标准全文，检索结果仅提供条文号、摘要与官方链接。</p>
+  </footer>
+</body>
+</html>

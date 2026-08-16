@@ -1,0 +1,41 @@
+{
+  "meta": {
+    "standards": ["ZJXFZN-2020"],
+    "note": "演示子集：仅条文号 + 自写摘要 + 官方链接，不含条文原文",
+    "generated_at": "2026-08-17T00:00:00+08:00",
+    "version": "0.1.0"
+  },
+  "items": [
+    {
+      "standard_id": "ZJXFZN-2020",
+      "standard_title": "浙江省消防难点问题操作技术指南（2020版）",
+      "article_no": "7.2.1",
+      "summary": "解释建规8.5.2条第1款：人员或可燃物较多的丙类生产场所，建筑面积大于300平方米时应设排烟设施。",
+      "tags": ["排烟设施", "丙类生产场所", "建筑面积", "人员或可燃物较多"],
+      "related": [
+        { "article": "建筑设计防火规范第8.5.2条第1款", "relation": "依据", "note": "本条解释该款中丙类生产场所应设置排烟设施的面积条件" }
+      ],
+      "source_url": "https://openstd.samr.gov.cn/bzgk/std/"
+    },
+    {
+      "standard_id": "ZJXFZN-2020",
+      "standard_title": "浙江省消防难点问题操作技术指南（2020版）",
+      "article_no": "7.2.2",
+      "summary": "明确建规8.5.2条第2款：丁类生产车间指生产厂房内任一空间建筑面积大于5000平方米的车间。",
+      "tags": ["排烟设施", "丁类生产车间", "建筑面积", "生产厂房"],
+      "related": [
+        { "article": "建筑设计防火规范第8.5.2条第2款", "relation": "依据", "note": "本条明确丁类生产车间的定义" }
+      ],
+      "source_url": "https://openstd.samr.gov.cn/bzgk/std/"
+    },
+    {
+      "standard_id": "ZJXFZN-2020",
+      "standard_title": "浙江省消防难点问题操作技术指南（2020版）",
+      "article_no": "7.2.5",
+      "summary": "敞开楼梯、自动扶梯区域无疏散等需求且周边有防火卷帘分隔可不设排烟；首层未分隔时设挡烟垂壁，高度不小于净空20%。",
+      "tags": ["排烟设施豁免", "敞开楼梯", "自动扶梯", "防火卷帘", "挡烟垂壁", "储烟仓厚度"],
+      "related": [],
+      "source_url": "https://openstd.samr.gov.cn/bzgk/std/"
+    }
+  ]
+}

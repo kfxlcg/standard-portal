@@ -1,0 +1,63 @@
+{
+  "meta": {
+    "source": "国家标准全文公开系统 openstd.samr.gov.cn 等官方公开题录",
+    "generated_at": "2026-08-17T00:00:00+08:00",
+    "total": 4,
+    "version": "0.1.0",
+    "note": "示例数据，由私有管线 export_public.py 导出后替换"
+  },
+  "items": [
+    {
+      "code": "GB55016-2021",
+      "title": "建筑环境通用规范",
+      "issue": "现行",
+      "release_date": "2021-09-08",
+      "implementation_date": "2022-01-01",
+      "abolition_date": null,
+      "category": "综合设计",
+      "reference_count": 86,
+      "doc_type": "国标",
+      "level": "national",
+      "source_url": "https://openstd.samr.gov.cn/bzgk/std/"
+    },
+    {
+      "code": "GB55037-2022",
+      "title": "建筑防火通用规范",
+      "issue": "现行",
+      "release_date": "2022-12-27",
+      "implementation_date": "2023-06-01",
+      "abolition_date": null,
+      "category": "防火排烟",
+      "reference_count": 158,
+      "doc_type": "国标",
+      "level": "national",
+      "source_url": "https://openstd.samr.gov.cn/bzgk/std/"
+    },
+    {
+      "code": "GB50016-2014",
+      "title": "建筑设计防火规范（2018年版）",
+      "issue": "现行",
+      "release_date": "2014-08-27",
+      "implementation_date": "2015-05-01",
+      "abolition_date": null,
+      "category": "防火排烟",
+      "reference_count": 1240,
+      "doc_type": "国标",
+      "level": "national",
+      "source_url": "https://openstd.samr.gov.cn/bzgk/std/"
+    },
+    {
+      "code": "JGJ/T67-2019",
+      "title": "办公建筑设计标准",
+      "issue": "现行",
+      "release_date": "2019-11-08",
+      "implementation_date": "2020-03-01",
+      "abolition_date": null,
+      "category": "建筑设计",
+      "reference_count": 42,
+      "doc_type": "行标",
+      "level": "industry",
+      "source_url": "https://www.mohurd.gov.cn/"
+    }
+  ]
+}

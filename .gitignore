@@ -1,0 +1,20 @@
+# Python
+__pycache__/
+*.py[cod]
+
+# 私有数据（绝不入公开仓库）
+data/private/
+data/full_chunks/
+data/raw/
+
+# 凭据
+.env
+.env.*
+*.key
+*.secret
+
+# 系统/IDE
+.DS_Store
+Thumbs.db
+.idea/
+.vscode/

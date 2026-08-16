@@ -1,0 +1,23 @@
+{
+  "meta": {
+    "generated_at": "2026-08-17T00:00:00+08:00",
+    "version": "0.1.0",
+    "note": "示例统计：registry 计数由导出器自动生成，治理/评测数字由私有管线填写"
+  },
+  "registry": {
+    "total": 4,
+    "by_issue": { "现行": 4 },
+    "by_doc_type": { "国标": 3, "行标": 1 }
+  },
+  "governed": {
+    "books": 29,
+    "chunks_total": 0,
+    "mandatory_rules": 0,
+    "qc_pass_rate": null
+  },
+  "evaluation": {
+    "cases": 0,
+    "recall": null,
+    "accuracy": null
+  }
+}

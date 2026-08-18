@@ -26,6 +26,7 @@ header .sub { margin: 6px 0 0; color: #9ca3af; font-size: 14px; }
 .tab {
   border: 1px solid var(--line);
   background: var(--card);
+  color: var(--ink);
   padding: 8px 18px;
   border-radius: 8px;
   cursor: pointer;

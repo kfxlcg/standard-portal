@@ -21,8 +21,6 @@
       <button id="tab-demo" class="tab" data-tab="demo">演示检索</button>
     </nav>
 
-    <section id="stats" class="stats"></section>
-
     <section id="panel-catalog" class="panel">
       <div class="controls">
         <input id="q" type="search" placeholder="输入标准号 / 名称 / 分类，如 GB55016 或 防火">
@@ -42,7 +40,7 @@
       <div class="controls">
         <input id="dq" type="search" placeholder="在演示数据中检索条文，如 排烟 / 防烟分区">
       </div>
-      <p class="muted">演示子集仅包含条文号、自写摘要与官方源链接，不包含条文全文。</p>
+      <p id="demo-info" class="muted">演示覆盖 29 本治理规范条文摘要（条文号 + 自写摘要 + 官方链接），不含条文全文。</p>
       <ul id="demo-results" class="results"></ul>
     </section>
   </main>

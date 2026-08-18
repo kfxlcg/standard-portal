@@ -22,7 +22,10 @@ function scoreItem(it, q) {
 
 function issueBadge(issue) {
   const cls = issue === "现行" ? "ok" : issue === "待实施" ? "warn" : "bad";
-  return `<span class="badge ${cls}">${issue || "未知"}</span>`;
+  const el = document.createElement("span");
+  el.className = "badge " + cls;
+  el.textContent = issue || "未知";
+  return el;
 }
 
 function el(tag, cls, text) {
@@ -30,34 +33,6 @@ function el(tag, cls, text) {
   if (cls) n.className = cls;
   if (text !== undefined) n.textContent = text;
   return n;
-}
-
-function renderStats(governed) {
-  const box = $("stats");
-  box.innerHTML = "";
-  const byIssue = {};
-  const byDoc = {};
-  for (const it of state.catalog) {
-    byIssue[it.issue || "未知"] = (byIssue[it.issue || "未知"] || 0) + 1;
-    byDoc[it.doc_type || "其他"] = (byDoc[it.doc_type || "其他"] || 0) + 1;
-  }
-  const cards = [];
-  if (governed && governed.books) {
-    cards.push(["治理规范", governed.books.toLocaleString()]);
-  }
-  cards.push(
-    ["总题录数", state.catalog.length.toLocaleString()],
-    ["现行", (byIssue["现行"] || 0).toLocaleString()],
-    ["废止", (byIssue["废止"] || 0).toLocaleString()],
-    ["国标", (byDoc["国标"] || 0).toLocaleString()],
-    ["行标", (byDoc["行标"] || 0).toLocaleString()],
-    ["图集", (byDoc["图集"] || 0).toLocaleString()],
-  );
-  for (const [lbl, num] of cards) {
-    const d = el("div", "stat");
-    d.append(el("div", "num", num), el("div", "lbl", lbl));
-    box.append(d);
-  }
 }
 
 function fillSelects() {
@@ -156,6 +131,8 @@ function renderDemo() {
     );
     return hay.includes(q);
   });
+  const info = $("demo-info");
+  if (info) info.textContent = "共 " + list.length.toLocaleString() + " 条条目";
   const ul = $("demo-results");
   ul.innerHTML = "";
   for (const it of list) {
@@ -240,17 +217,19 @@ document.addEventListener("DOMContentLoaded", async () => {
     state.shown += 100;
     renderCatalog();
   });
-  $("dq").addEventListener("input", renderDemo);
+  let dqDebounce;
+  $("dq").addEventListener("input", () => {
+    clearTimeout(dqDebounce);
+    dqDebounce = setTimeout(renderDemo, 120);
+  });
 
   try {
-    const [catalog, stats, demo] = await Promise.all([
+    const [catalog, demo] = await Promise.all([
       fetch("data/public/catalog.json").then((r) => r.json()),
-      fetch("data/public/stats.json").then((r) => r.json()),
       fetch("data/public/demo.json").then((r) => r.json()),
     ]);
     state.catalog = catalog.items || [];
     state.demo = demo.items || [];
-    renderStats(stats.governed || null);
     fillSelects();
     renderCatalog();
     renderDemo();

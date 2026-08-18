@@ -18,3 +18,6 @@ data/raw/
 Thumbs.db
 .idea/
 .vscode/
+
+# 私有导出脚本（已迁移至 data-vault，禁止入公开仓库）
+scripts/export_public.py

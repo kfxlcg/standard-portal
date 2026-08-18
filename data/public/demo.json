@@ -1,8 +1,10 @@
 {
   "meta": {
-    "standards": ["ZJXFZN-2020"],
+    "standards": [
+      "ZJXFZN-2020"
+    ],
     "note": "演示子集：仅条文号 + 自写摘要 + 官方链接，不含条文原文",
-    "generated_at": "2026-08-17T00:00:00+08:00",
+    "generated_at": "2026-08-18T23:25:25+08:00",
     "version": "0.1.0"
   },
   "items": [
@@ -11,9 +13,18 @@
       "standard_title": "浙江省消防难点问题操作技术指南（2020版）",
       "article_no": "7.2.1",
       "summary": "解释建规8.5.2条第1款：人员或可燃物较多的丙类生产场所，建筑面积大于300平方米时应设排烟设施。",
-      "tags": ["排烟设施", "丙类生产场所", "建筑面积", "人员或可燃物较多"],
+      "tags": [
+        "排烟设施",
+        "丙类生产场所",
+        "建筑面积",
+        "人员或可燃物较多"
+      ],
       "related": [
-        { "article": "建筑设计防火规范第8.5.2条第1款", "relation": "依据", "note": "本条解释该款中丙类生产场所应设置排烟设施的面积条件" }
+        {
+          "article": "建筑设计防火规范第8.5.2条第1款",
+          "relation": "依据",
+          "note": "本条解释该款中丙类生产场所应设置排烟设施的面积条件"
+        }
       ],
       "source_url": "https://openstd.samr.gov.cn/bzgk/std/"
     },
@@ -22,9 +33,64 @@
       "standard_title": "浙江省消防难点问题操作技术指南（2020版）",
       "article_no": "7.2.2",
       "summary": "明确建规8.5.2条第2款：丁类生产车间指生产厂房内任一空间建筑面积大于5000平方米的车间。",
-      "tags": ["排烟设施", "丁类生产车间", "建筑面积", "生产厂房"],
+      "tags": [
+        "排烟设施",
+        "丁类生产车间",
+        "建筑面积",
+        "生产厂房"
+      ],
       "related": [
-        { "article": "建筑设计防火规范第8.5.2条第2款", "relation": "依据", "note": "本条明确丁类生产车间的定义" }
+        {
+          "article": "建筑设计防火规范第8.5.2条第2款",
+          "relation": "依据",
+          "note": "本条明确丁类生产车间的定义"
+        }
+      ],
+      "source_url": "https://openstd.samr.gov.cn/bzgk/std/"
+    },
+    {
+      "standard_id": "ZJXFZN-2020",
+      "standard_title": "浙江省消防难点问题操作技术指南（2020版）",
+      "article_no": "7.2.3",
+      "summary": "民用建筑内需设排烟设施的场所或部位，应按建规8.5.3条及8.5.4条的相关要求综合考虑确定。",
+      "tags": [
+        "民用建筑",
+        "排烟设施",
+        "场所或部位",
+        "综合确定"
+      ],
+      "related": [
+        {
+          "article": "建筑设计防火规范第8.5.3条",
+          "relation": "依据",
+          "note": "本条要求按该条确定排烟场所或部位"
+        },
+        {
+          "article": "建筑设计防火规范第8.5.4条",
+          "relation": "依据",
+          "note": "本条要求按该条确定排烟场所或部位"
+        }
+      ],
+      "source_url": "https://openstd.samr.gov.cn/bzgk/std/"
+    },
+    {
+      "standard_id": "ZJXFZN-2020",
+      "standard_title": "浙江省消防难点问题操作技术指南（2020版）",
+      "article_no": "7.2.4",
+      "summary": "解释建规8.5.4条：无窗房间指地上建筑内区或靠外墙无窗/固定窗房间；商业服务网点首层有外门无外窗可不按无窗房间。",
+      "tags": [
+        "排烟设施",
+        "无窗房间",
+        "地上建筑",
+        "商业服务网点",
+        "固定窗"
+      ],
+      "related": [
+        {
+          "article": "建筑设计防火规范第8.5.4条",
+          "relation": "依据",
+          "note": "本条解释该条中地上建筑内无窗房间的定义及商业服务网点例外"
+        }
       ],
       "source_url": "https://openstd.samr.gov.cn/bzgk/std/"
     },
@@ -33,8 +99,716 @@
       "standard_title": "浙江省消防难点问题操作技术指南（2020版）",
       "article_no": "7.2.5",
       "summary": "敞开楼梯、自动扶梯区域无疏散等需求且周边有防火卷帘分隔可不设排烟；首层未分隔时设挡烟垂壁，高度不小于净空20%。",
-      "tags": ["排烟设施豁免", "敞开楼梯", "自动扶梯", "防火卷帘", "挡烟垂壁", "储烟仓厚度"],
+      "tags": [
+        "排烟设施豁免",
+        "敞开楼梯",
+        "自动扶梯",
+        "防火卷帘",
+        "挡烟垂壁",
+        "储烟仓厚度"
+      ],
       "related": [],
+      "source_url": "https://openstd.samr.gov.cn/bzgk/std/"
+    },
+    {
+      "standard_id": "ZJXFZN-2020",
+      "standard_title": "浙江省消防难点问题操作技术指南（2020版）",
+      "article_no": "7.2.6",
+      "summary": "规定无人员经常停留的机电用房可不设排烟设施，但有人员值班且面积≥50㎡的控制室除外。",
+      "tags": [
+        "排烟设施",
+        "机电用房",
+        "可不设",
+        "控制室",
+        "面积阈值"
+      ],
+      "related": [],
+      "source_url": "https://openstd.samr.gov.cn/bzgk/std/"
+    },
+    {
+      "standard_id": "ZJXFZN-2020",
+      "standard_title": "浙江省消防难点问题操作技术指南（2020版）",
+      "article_no": "7.2.7",
+      "summary": "规定地下电梯厅、地下门厅等经常有人停留场所，建筑面积大于50㎡时应设排烟设施，前室除外。",
+      "tags": [
+        "地下电梯厅",
+        "地下门厅",
+        "经常有人停留",
+        "排烟设施",
+        "面积阈值"
+      ],
+      "related": [],
+      "source_url": "https://openstd.samr.gov.cn/bzgk/std/"
+    },
+    {
+      "standard_id": "ZJXFZN-2020",
+      "standard_title": "浙江省消防难点问题操作技术指南（2020版）",
+      "article_no": "7.2.8",
+      "summary": "规定设置气体或细水雾灭火系统的防护区不设火灾排烟，但需设灭火后通风，换气次数5～8次/h，排风口通室外。",
+      "tags": [
+        "气体灭火",
+        "细水雾灭火",
+        "防护区",
+        "排烟设施",
+        "灭火后通风"
+      ],
+      "related": [],
+      "source_url": "https://openstd.samr.gov.cn/bzgk/std/"
+    },
+    {
+      "standard_id": "ZJXFZN-2020",
+      "standard_title": "浙江省消防难点问题操作技术指南（2020版）",
+      "article_no": "7.2.9",
+      "summary": "规定冷库冷间可按《冷库设计规范》GB50072的相关要求设置排烟设施。",
+      "tags": [
+        "冷库",
+        "冷间",
+        "排烟设施",
+        "标准引用"
+      ],
+      "related": [
+        {
+          "article": "GB 50072《冷库设计规范》",
+          "relation": "依据",
+          "note": "冷库冷间排烟设施按该规范要求设置"
+        }
+      ],
+      "source_url": "https://openstd.samr.gov.cn/bzgk/std/"
+    },
+    {
+      "standard_id": "ZJXFZN-2020",
+      "standard_title": "浙江省消防难点问题操作技术指南（2020版）",
+      "article_no": "7.2.10",
+      "summary": "规定同一建筑空间宜统一排烟方式；相邻防烟分区采用不同方式时，挡烟设施须分隔到位并按规定考虑补风。",
+      "tags": [
+        "排烟方式",
+        "防烟分区",
+        "挡烟垂壁",
+        "储烟仓",
+        "补风措施"
+      ],
+      "related": [
+        {
+          "article": "《防排烟标准》第4.5节",
+          "relation": "依据",
+          "note": "补风措施按第4.5节规定考虑"
+        }
+      ],
+      "source_url": "https://openstd.samr.gov.cn/bzgk/std/"
+    },
+    {
+      "standard_id": "ZJXFZN-2020",
+      "standard_title": "浙江省消防难点问题操作技术指南（2020版）",
+      "article_no": "7.2.11",
+      "summary": "异形房间防烟分区长边按覆盖最小矩形或沿烟气扩散路径确定，并须符合防排烟标准限值。",
+      "tags": [
+        "防烟分区",
+        "长边长度",
+        "矩形/L形房间",
+        "走道回廊",
+        "烟气扩散路径",
+        "参考图示"
+      ],
+      "related": [
+        {
+          "article": "《防排烟标准》第4.2.4条",
+          "relation": "依据",
+          "note": "长边长度不应大于该条规定的防烟分区长边最大允许长度"
+        },
+        {
+          "article": "本《指南》第7.2.12条",
+          "relation": "依据",
+          "note": "走道或回廊防烟分区的长边长度应符合该条规定"
+        }
+      ],
+      "source_url": "https://openstd.samr.gov.cn/bzgk/std/"
+    },
+    {
+      "standard_id": "ZJXFZN-2020",
+      "standard_title": "浙江省消防难点问题操作技术指南（2020版）",
+      "article_no": "7.2.12",
+      "summary": "按走道主体宽度及局部变宽条件，分别规定防烟分区长边长度不大于45m、50m、55m。",
+      "tags": [
+        "防烟分区",
+        "长边长度",
+        "走道",
+        "局部变宽",
+        "宽度限值"
+      ],
+      "related": [
+        {
+          "article": "《防排烟标准》第4.2.4条",
+          "relation": "同主题",
+          "note": "本条内容为对该条附注中走道防烟分区长边长度规定的细化说明"
+        }
+      ],
+      "source_url": "https://openstd.samr.gov.cn/bzgk/std/"
+    },
+    {
+      "standard_id": "ZJXFZN-2020",
+      "standard_title": "浙江省消防难点问题操作技术指南（2020版）",
+      "article_no": "7.2.13",
+      "summary": "汽车库防烟分区划分按GB50067确定，最大允许长边长度不应大于75m。",
+      "tags": [
+        "防烟分区",
+        "汽车库",
+        "长边长度",
+        "GB50067",
+        "75m限值"
+      ],
+      "related": [
+        {
+          "article": "《防排烟标准》第4.2.4条",
+          "relation": "同主题",
+          "note": "本条内容为其附注中关于汽车库防烟分区的规定"
+        },
+        {
+          "article": "《汽车库、修车库、停车场设计防火规范》GB 50067",
+          "relation": "依据",
+          "note": "汽车库防烟分区的面积、长度等划分应符合该规范相关规定"
+        }
+      ],
+      "source_url": "https://openstd.samr.gov.cn/bzgk/std/"
+    },
+    {
+      "standard_id": "ZJXFZN-2020",
+      "standard_title": "浙江省消防难点问题操作技术指南（2020版）",
+      "article_no": "7.2.14",
+      "summary": "规定自然排烟丙丁类工业建筑中，防烟分区内任一点至最近排烟窗水平距离随净高取30m或净高2.8倍。",
+      "tags": [
+        "丙丁类工业建筑",
+        "自然排烟",
+        "排烟窗",
+        "水平距离",
+        "空间净高"
+      ],
+      "related": [],
+      "source_url": "https://openstd.samr.gov.cn/bzgk/std/"
+    },
+    {
+      "standard_id": "ZJXFZN-2020",
+      "standard_title": "浙江省消防难点问题操作技术指南（2020版）",
+      "article_no": "7.2.15",
+      "summary": "规定厂房/仓库自然排烟窗在转角相邻两边或单面外墙布置时，防烟分区内任一点至排烟窗水平距离限值。",
+      "tags": [
+        "厂房仓库",
+        "自然排烟",
+        "排烟窗布置",
+        "沿墙布置",
+        "水平距离"
+      ],
+      "related": [],
+      "source_url": "https://openstd.samr.gov.cn/bzgk/std/"
+    },
+    {
+      "standard_id": "ZJXFZN-2020",
+      "standard_title": "浙江省消防难点问题操作技术指南（2020版）",
+      "article_no": "7.2.16",
+      "summary": "规定建筑面积大于2000m2的体育比赛厅等自然排烟窗应分区分组设置集中手动开启和自动开启设施，并对自动排烟窗性能提出要求。",
+      "tags": [
+        "自然排烟窗",
+        "体育比赛厅",
+        "自动开启",
+        "手动开启",
+        "排烟窗性能"
+      ],
+      "related": [
+        {
+          "article": "《防排烟标准》第4.3.6条",
+          "relation": "例外",
+          "note": "该条规定的场所不适用本条规定"
+        }
+      ],
+      "source_url": "https://openstd.samr.gov.cn/bzgk/std/"
+    },
+    {
+      "standard_id": "ZJXFZN-2020",
+      "standard_title": "浙江省消防难点问题操作技术指南（2020版）",
+      "article_no": "7.2.17",
+      "summary": "规定垂直排烟系统中各楼层排烟支管只能承担一个防火分区的排烟。",
+      "tags": [
+        "垂直排烟系统",
+        "排烟支管",
+        "防火分区",
+        "排烟管道"
+      ],
+      "related": [],
+      "source_url": "https://openstd.samr.gov.cn/bzgk/std/"
+    },
+    {
+      "standard_id": "ZJXFZN-2020",
+      "standard_title": "浙江省消防难点问题操作技术指南（2020版）",
+      "article_no": "7.2.18",
+      "summary": "解释排烟系统每段高度为服务楼层高度，规定排烟风机宜设于最高服务楼层，远置时需复核风压。",
+      "tags": [
+        "排烟系统",
+        "每段高度",
+        "排烟风机",
+        "风压复核"
+      ],
+      "related": [
+        {
+          "article": "《防排烟标准》第4.4.2条",
+          "relation": "依据",
+          "note": "本条解释其每段高度的含义并补充风机布置要求"
+        }
+      ],
+      "source_url": "https://openstd.samr.gov.cn/bzgk/std/"
+    },
+    {
+      "standard_id": "ZJXFZN-2020",
+      "standard_title": "浙江省消防难点问题操作技术指南（2020版）",
+      "article_no": "7.2.19",
+      "summary": "规定排烟风机应设专用机房，确需室外或合用机房的条件及防护、控制柜要求，并允许一定条件下屋顶式耐候风机直设室外。",
+      "tags": [
+        "排烟风机",
+        "专用机房",
+        "室外布置",
+        "风机控制柜",
+        "屋顶式风机"
+      ],
+      "related": [
+        {
+          "article": "《防排烟标准》第4.4.5条",
+          "relation": "依据",
+          "note": "合用机房应符合该条相关规定"
+        }
+      ],
+      "source_url": "https://openstd.samr.gov.cn/bzgk/std/"
+    },
+    {
+      "standard_id": "ZJXFZN-2020",
+      "standard_title": "浙江省消防难点问题操作技术指南（2020版）",
+      "article_no": "7.2.20",
+      "summary": "",
+      "tags": [],
+      "related": [],
+      "source_url": "https://openstd.samr.gov.cn/bzgk/std/"
+    },
+    {
+      "standard_id": "ZJXFZN-2020",
+      "standard_title": "浙江省消防难点问题操作技术指南（2020版）",
+      "article_no": "7.2.21",
+      "summary": "说明风管满足耐火极限的三种做法：金属风管包覆防火隔热材料、采用复合成品风管或复合板材风管。",
+      "tags": [
+        "风管耐火极限",
+        "防火隔热材料",
+        "金属风管",
+        "复合风管",
+        "防排烟标准"
+      ],
+      "related": [
+        {
+          "article": "《防排烟标准》",
+          "relation": "依据",
+          "note": "风管耐火极限要求"
+        }
+      ],
+      "source_url": "https://openstd.samr.gov.cn/bzgk/std/"
+    },
+    {
+      "standard_id": "ZJXFZN-2020",
+      "standard_title": "浙江省消防难点问题操作技术指南（2020版）",
+      "article_no": "7.2.22",
+      "summary": "规定竖向排烟管道应独立设于管道井内，不得与加压送风或补风管道共用。",
+      "tags": [
+        "排烟管道",
+        "管道井",
+        "加压送风",
+        "补风",
+        "独立性"
+      ],
+      "related": [],
+      "source_url": "https://openstd.samr.gov.cn/bzgk/std/"
+    },
+    {
+      "standard_id": "ZJXFZN-2020",
+      "standard_title": "浙江省消防难点问题操作技术指南（2020版）",
+      "article_no": "7.2.23",
+      "summary": "规定多防烟分区排烟支管设280℃排烟防火阀的条件，以及排烟风管、排烟口尺寸按计算风量确定。",
+      "tags": [
+        "排烟防火阀",
+        "防烟分区",
+        "排烟风管",
+        "排烟口",
+        "计算风量"
+      ],
+      "related": [],
+      "source_url": "https://openstd.samr.gov.cn/bzgk/std/"
+    },
+    {
+      "standard_id": "ZJXFZN-2020",
+      "standard_title": "浙江省消防难点问题操作技术指南（2020版）",
+      "article_no": "7.2.24",
+      "summary": "规定特定空间条件下，单个排烟口最大允许排烟量可按10m/s风速计算确定。",
+      "tags": [
+        "排烟口",
+        "最大允许排烟量",
+        "机械排烟",
+        "汽车库",
+        "走道"
+      ],
+      "related": [
+        {
+          "article": "《防排烟标准》第4.4.12条第7款",
+          "relation": "依据",
+          "note": "排烟口最大允许排烟量按10m/s风速计算"
+        }
+      ],
+      "source_url": "https://openstd.samr.gov.cn/bzgk/std/"
+    },
+    {
+      "standard_id": "ZJXFZN-2020",
+      "standard_title": "浙江省消防难点问题操作技术指南（2020版）",
+      "article_no": "7.2.25",
+      "summary": "规定无窗房间面积小于50㎡且总面积≥200㎡时可不设排烟口，通过走道排烟及走道排烟要求。",
+      "tags": [
+        "无窗房间",
+        "走道排烟",
+        "排烟量",
+        "自然排烟窗",
+        "机械排烟"
+      ],
+      "related": [],
+      "source_url": "https://openstd.samr.gov.cn/bzgk/std/"
+    },
+    {
+      "standard_id": "ZJXFZN-2020",
+      "standard_title": "浙江省消防难点问题操作技术指南（2020版）",
+      "article_no": "7.2.26",
+      "summary": "规定防烟分区内多个机械排烟口边缘间最小距离Smin的计算公式，按单个排烟口排烟量Ve确定。",
+      "tags": [
+        "机械排烟",
+        "排烟口间距",
+        "防烟分区",
+        "最小距离",
+        "计算公式"
+      ],
+      "related": [],
+      "source_url": "https://openstd.samr.gov.cn/bzgk/std/"
+    },
+    {
+      "standard_id": "ZJXFZN-2020",
+      "standard_title": "浙江省消防难点问题操作技术指南（2020版）",
+      "article_no": "7.2.27",
+      "summary": "规定地上、地下建筑房间设置补风设施的条件，以及自然排烟系统补风方式和自然补风口面积要求。",
+      "tags": [
+        "补风设施",
+        "地上建筑",
+        "地下建筑",
+        "自然排烟",
+        "走道间接补风",
+        "自然补风口"
+      ],
+      "related": [],
+      "source_url": "https://openstd.samr.gov.cn/bzgk/std/"
+    },
+    {
+      "standard_id": "ZJXFZN-2020",
+      "standard_title": "浙江省消防难点问题操作技术指南（2020版）",
+      "article_no": "7.2.28",
+      "summary": "规定地下汽车库补风量下限为排烟量50%，上限不超过排烟量，宜控制在80%～90%。",
+      "tags": [
+        "地下汽车库",
+        "补风系统",
+        "补风量",
+        "排烟量",
+        "防烟分区"
+      ],
+      "related": [],
+      "source_url": "https://openstd.samr.gov.cn/bzgk/std/"
+    },
+    {
+      "standard_id": "ZJXFZN-2020",
+      "standard_title": "浙江省消防难点问题操作技术指南（2020版）",
+      "article_no": "7.2.29",
+      "summary": "规定净高≤6m房间的计算排烟量下限，按建筑面积是否大于100m2分档执行。",
+      "tags": [
+        "房间排烟量",
+        "净高≤6m",
+        "建筑面积",
+        "最小排烟量",
+        "计算排烟量"
+      ],
+      "related": [],
+      "source_url": "https://openstd.samr.gov.cn/bzgk/std/"
+    },
+    {
+      "standard_id": "ZJXFZN-2020",
+      "standard_title": "浙江省消防难点问题操作技术指南（2020版）",
+      "article_no": "7.2.30",
+      "summary": "规定净高大于6m场所（不含中庭）的排烟量计算方法、设计清晰高度取值及自然排烟窗面积下限。",
+      "tags": [
+        "排烟量计算",
+        "净高>6m",
+        "公共建筑",
+        "工业建筑",
+        "设计清晰高度",
+        "自然排烟窗"
+      ],
+      "related": [
+        {
+          "article": "《防排烟标准》第4.6.6条～第4.6.13条",
+          "relation": "依据",
+          "note": "排烟量应按此范围规定计算确定"
+        },
+        {
+          "article": "《防排烟标准》表4.6.3",
+          "relation": "依据",
+          "note": "非阶梯式（水平）地面场所的排烟量可按此表确定"
+        },
+        {
+          "article": "《防排烟标准》第4.6.15条",
+          "relation": "依据",
+          "note": "自然排烟窗（口）有效面积应按此条计算确定"
+        }
+      ],
+      "source_url": "https://openstd.samr.gov.cn/bzgk/std/"
+    },
+    {
+      "standard_id": "ZJXFZN-2020",
+      "standard_title": "浙江省消防难点问题操作技术指南（2020版）",
+      "article_no": "7.2.31",
+      "summary": "规定工业建筑走道排烟设计可参照公共建筑走道排烟有关规定及本指南执行。",
+      "tags": [
+        "走道排烟",
+        "工业建筑",
+        "公共建筑",
+        "排烟设计",
+        "参照执行"
+      ],
+      "related": [
+        {
+          "article": "《防排烟标准》第4.6.3条",
+          "relation": "依据",
+          "note": "工业建筑走道排烟参照公共建筑走道有关规定"
+        },
+        {
+          "article": "本《指南》",
+          "relation": "依据",
+          "note": "同时按本指南有关要求执行"
+        }
+      ],
+      "source_url": "https://openstd.samr.gov.cn/bzgk/std/"
+    },
+    {
+      "standard_id": "ZJXFZN-2020",
+      "standard_title": "浙江省消防难点问题操作技术指南（2020版）",
+      "article_no": "7.2.32",
+      "summary": "走道或回廊周围房间均设排烟设施时，机械排烟量按60且不小于13000，或设2%自然排烟窗且间距不小于2/3廊长。",
+      "tags": [
+        "走道排烟",
+        "回廊排烟",
+        "机械排烟量",
+        "自然排烟窗",
+        "排烟设施"
+      ],
+      "related": [
+        {
+          "article": "《防排烟标准》",
+          "relation": "依据",
+          "note": "周围房间排烟设施应满足该标准要求"
+        }
+      ],
+      "source_url": "https://openstd.samr.gov.cn/bzgk/std/"
+    },
+    {
+      "standard_id": "ZJXFZN-2020",
+      "standard_title": "浙江省消防难点问题操作技术指南（2020版）",
+      "article_no": "7.2.33",
+      "summary": "解释《防排烟标准》4.6.4条：同一排烟系统多个防烟分区净高全大于6m或全不大于6m为相同净高，混合为不同净高。",
+      "tags": [
+        "防烟分区",
+        "排烟系统",
+        "净高",
+        "相同净高",
+        "不同净高"
+      ],
+      "related": [
+        {
+          "article": "《防排烟标准》第4.6.4条",
+          "relation": "依据",
+          "note": "解释该条中‘相同净高’与‘不同净高’的定义"
+        }
+      ],
+      "source_url": "https://openstd.samr.gov.cn/bzgk/std/"
+    },
+    {
+      "standard_id": "ZJXFZN-2020",
+      "standard_title": "浙江省消防难点问题操作技术指南（2020版）",
+      "article_no": "7.2.34",
+      "summary": "竖向机械排烟系统（各层净高≤6m）：排烟量取任一防火分区任意两相邻防烟分区排烟量之和最大值；仅一个防烟分区时加其他层关闭排烟口漏风量。",
+      "tags": [
+        "竖向排烟系统",
+        "排烟量计算",
+        "防烟分区",
+        "防火分区",
+        "漏风量",
+        "排烟阀"
+      ],
+      "related": [
+        {
+          "article": "GB 15930《建筑通风和排烟系统用防火阀门》",
+          "relation": "依据",
+          "note": "排烟口（排烟阀）漏风量按该标准计算"
+        }
+      ],
+      "source_url": "https://openstd.samr.gov.cn/bzgk/std/"
+    },
+    {
+      "standard_id": "ZJXFZN-2020",
+      "standard_title": "浙江省消防难点问题操作技术指南（2020版）",
+      "article_no": "7.2.35",
+      "summary": "≤200㎡中庭及≤300㎡、净高>6m且不贯通多楼层的门厅等：机械排烟按≥6次/h且≥40000m3/h，自然排烟窗≥5%地面面积。",
+      "tags": [
+        "中庭排烟",
+        "门厅排烟",
+        "机械排烟",
+        "自然排烟窗",
+        "换气次数",
+        "面积计算"
+      ],
+      "related": [],
+      "source_url": "https://openstd.samr.gov.cn/bzgk/std/"
+    },
+    {
+      "standard_id": "ZJXFZN-2020",
+      "standard_title": "浙江省消防难点问题操作技术指南（2020版）",
+      "article_no": "7.2.36",
+      "summary": "规定锯齿形、人字形、斜坡屋面及平顶顶棚等不同屋顶类型下建筑空间净高的确定方法",
+      "tags": [
+        "建筑空间净高",
+        "屋顶形式",
+        "排烟窗设置",
+        "防排烟标准",
+        "净高计算",
+        "图示"
+      ],
+      "related": [
+        {
+          "article": "《防排烟标准》第4.6.9条",
+          "relation": "依据",
+          "note": "建筑空间净高应按该条条文说明确定"
+        }
+      ],
+      "source_url": "https://openstd.samr.gov.cn/bzgk/std/"
+    },
+    {
+      "standard_id": "ZJXFZN-2020",
+      "standard_title": "浙江省消防难点问题操作技术指南（2020版）",
+      "article_no": "7.2.37",
+      "summary": "规定火灾计算模型中燃料面距地面高度的取值方法，按房间净高6m为界取值",
+      "tags": [
+        "燃料面高度",
+        "火灾计算模型",
+        "排烟量计算",
+        "房间净高",
+        "防排烟标准"
+      ],
+      "related": [
+        {
+          "article": "《防排烟标准》第4.6.11条",
+          "relation": "依据",
+          "note": "燃料面距地面高度是火灾计算模型参数"
+        }
+      ],
+      "source_url": "https://openstd.samr.gov.cn/bzgk/std/"
+    },
+    {
+      "standard_id": "ZJXFZN-2020",
+      "standard_title": "浙江省消防难点问题操作技术指南（2020版）",
+      "article_no": "7.2.38",
+      "summary": "规定地下室非机动车库设置排烟设施的条件及机械/自然排烟参数，以及净高不大于3m时的防烟分区长度",
+      "tags": [
+        "非机动车库",
+        "地下室排烟",
+        "排烟设施",
+        "排烟量",
+        "自然排烟窗",
+        "防烟分区"
+      ],
+      "related": [],
+      "source_url": "https://openstd.samr.gov.cn/bzgk/std/"
+    },
+    {
+      "standard_id": "ZJXFZN-2020",
+      "standard_title": "浙江省消防难点问题操作技术指南（2020版）",
+      "article_no": "7.2.39",
+      "summary": "规定四层及以上或地下半地下歌舞娱乐场所机械排烟的排烟口设置、排烟量计算及补风要求",
+      "tags": [
+        "歌舞娱乐放映游艺场所",
+        "机械排烟",
+        "排烟口",
+        "排烟量",
+        "补风",
+        "内走道"
+      ],
+      "related": [
+        {
+          "article": "《防排烟标准》第4.6.3条",
+          "relation": "依据",
+          "note": "排烟量计算应按该条要求"
+        },
+        {
+          "article": "《防排烟标准》第4.6.4条",
+          "relation": "依据",
+          "note": "排烟量计算应按该条要求"
+        },
+        {
+          "article": "本《指南》第7.2.29条",
+          "relation": "依据",
+          "note": "第4.6.3条第1款有关排烟量的计算可按本条执行"
+        },
+        {
+          "article": "本《指南》第7.2.25条",
+          "relation": "依据",
+          "note": "内走道排烟系统的排烟量应符合该条规定"
+        }
+      ],
+      "source_url": "https://openstd.samr.gov.cn/bzgk/std/"
+    },
+    {
+      "standard_id": "ZJXFZN-2020",
+      "standard_title": "浙江省消防难点问题操作技术指南（2020版）",
+      "article_no": "7.2.40",
+      "summary": "规定一至三层歌舞娱乐场所设置排烟设施的条件，以及机械排烟设计参照要求",
+      "tags": [
+        "歌舞娱乐放映游艺场所",
+        "排烟设施",
+        "无窗房间",
+        "机械排烟",
+        "防烟分区",
+        "参照执行"
+      ],
+      "related": [
+        {
+          "article": "本《指南》第7.2.39条",
+          "relation": "依据",
+          "note": "机械排烟系统的防烟分区、排烟量、补风等设计参照执行"
+        }
+      ],
+      "source_url": "https://openstd.samr.gov.cn/bzgk/std/"
+    },
+    {
+      "standard_id": "ZJXFZN-2020",
+      "standard_title": "浙江省消防难点问题操作技术指南（2020版）",
+      "article_no": "7.2.41",
+      "summary": "规定新建地下汽车库配充电设施防火单元排烟和补风系统的独立设置要求及困难时的共用条件。",
+      "tags": [
+        "地下汽车库",
+        "充电设施",
+        "防火单元",
+        "排烟系统",
+        "补风系统",
+        "独立设置"
+      ],
+      "related": [
+        {
+          "article": "GB 50067",
+          "relation": "依据",
+          "note": "排烟量在其相关规定基础上增加20%"
+        }
+      ],
       "source_url": "https://openstd.samr.gov.cn/bzgk/std/"
     }
   ]

@@ -25,7 +25,37 @@ jobs:
         uses: actions/checkout@v4
 
       - name: Validate public artifacts
-        run: python3 scripts/export_public.py --check --outdir data/public
+        env:
+          EXPECT_TOTAL: 737
+        run: |
+          python3 - <<'PY'
+          import json, os, pathlib
+          errors = []
+          limits = {"catalog.json": 20 * 1024 * 1024, "stats.json": 100 * 1024, "demo.json": 2 * 1024 * 1024}
+          expect = int(os.environ.get("EXPECT_TOTAL", "0"))
+          for name, limit in limits.items():
+              p = pathlib.Path("data/public") / name
+              if not p.exists():
+                  errors.append("missing " + name)
+                  continue
+              if p.stat().st_size > limit:
+                  errors.append(name + " exceeds size limit")
+              data = json.loads(p.read_text(encoding="utf-8"))
+              items = data.get("items", [])
+              if name == "catalog.json":
+                  total = data.get("meta", {}).get("total")
+                  if expect and not (int(expect * 0.995) <= total <= int(expect * 1.005)):
+                      errors.append("catalog total " + str(total) + " outside expect " + str(expect))
+              for i, item in enumerate(items):
+                  for k, v in item.items():
+                      if isinstance(v, str) and "isdp-gw" in v.lower():
+                          errors.append(name + "[" + str(i) + "]." + k + " contains forbidden host")
+                      if k == "summary" and len(v) > 400:
+                          errors.append(name + "[" + str(i) + "] summary too long")
+          if errors:
+              raise SystemExit("FAIL:\n" + "\n".join(errors))
+          print("OK: public artifacts validated")
+          PY
 
       - name: Setup Pages
         uses: actions/configure-pages@v5

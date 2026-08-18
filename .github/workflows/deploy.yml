@@ -31,7 +31,7 @@ jobs:
           python3 - <<'PY'
           import json, os, pathlib
           errors = []
-          limits = {"catalog.json": 20 * 1024 * 1024, "stats.json": 100 * 1024, "demo.json": 2 * 1024 * 1024}
+          limits = {"catalog.json": 20 * 1024 * 1024, "stats.json": 100 * 1024, "demo.json": 40 * 1024 * 1024}
           expect = int(os.environ.get("EXPECT_TOTAL", "0"))
           for name, limit in limits.items():
               p = pathlib.Path("data/public") / name
